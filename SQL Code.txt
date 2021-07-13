@@ -1,0 +1,16 @@
+CREATE TABLE IF NOT EXISTS patients (
+	Customer_Name varchar(255) NOT NULL PRIMARY KEY,
+	Customer_ID varchar(18) NOT NULL ,
+	Customer_Open_Date date NOT NULL,
+	Last_Consulted_Date date ,
+	Vaccination_Type char(5) ,
+	Doctor_Consulted char(255) ,
+	State char(5),
+	Country char(5),
+	Post_Code int(5),
+	Date_of_Birth date ,
+	Active_Customer char(1)
+);
+
+
+
